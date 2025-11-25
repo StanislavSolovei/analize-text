@@ -4,7 +4,7 @@ function analizeText() {
     const myTextResult = myText.length; 
     document.getElementById("textResult").textContent = myTextResult; 
     
-    let textTrimmed = text.trim()
+    let textTrimmed = myText.trim()
     let counter = 0
     for (let i = 0; i < textTrimmed.length; i++){
         const letter = textTrimmed.charAt(i);
@@ -66,3 +66,4 @@ function analizeText() {
     
 
 };
+
